@@ -1,14 +1,15 @@
-# fontframe
+# fontframe(项目名称)
 
 > A Vue.js project
+基于vue实现的单页面应用框架
 
-## Build Setup
+## Build Setup(项目启动过程)
 
 ``` bash
-# install dependencies
+# install dependencies(安装依赖模块)
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8080(启动项目)
 npm run dev
 
 # build for production with minification
