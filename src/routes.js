@@ -7,8 +7,7 @@ const tab0 = resolve => require(['./components/tab0.vue'], resolve);
 const tab11 = resolve => require(['./components/tab11.vue'], resolve);
 const tab12 = resolve => require(['./components/tab12.vue'], resolve);
 // 配置路由
-let routes = [
-    {
+let routes = [{
         path: '/',
         component: index,
         name: '主页',
@@ -28,8 +27,8 @@ let routes = [
         name: 'tab1',
         iconCls: 'el-icon-setting',
         children: [
-            { path: '/tab11', component: tab11, name: 'tab11'},
-            { path: '/tab12', component: tab12, name: 'tab12'}
+            { path: '/tab11', component: tab11, name: 'tab11' },
+            { path: '/tab12', component: tab12, name: 'tab12' }
         ]
     }
 ]
